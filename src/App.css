@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.heroText {
+  margin-top: -400px;
+  margin-left: 504px;
+  width: 300px;
+  color: #E7DDCB;
+  text-align: center;
+ 
+
+}
