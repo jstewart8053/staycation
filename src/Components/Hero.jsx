@@ -1,14 +1,13 @@
-
 import React from "react";
 
-function Hero() {
-    return(
-        <div>
-            <img src="/assets/Home.gif" className="hero"/>
-            <p className="heroText">Do you ever wish you could accomplish activities, workshops, and inter-activities at your own pace, and in a beautiful and natural setting? A home away from home. Well now you can, with Staycation!</p>
-            <button>Show me more!</button>
-        </div>
-    )
+export default function Hero() {
+  return (
+    <section className="hero">
+      <img src="/assets/home.gif" className="hero--photo" />
+      <h1 className="hero--header">Online Experiences</h1>
+      <p className="hero--text">
+        Join unique interactive activities led by one-of-a-kind hosts.
+      </p>
+    </section>
+  );
 }
-
-export default Hero;
