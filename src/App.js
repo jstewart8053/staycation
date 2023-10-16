@@ -9,7 +9,24 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Cards />
+      <Cards
+        img="/assets/hiking.png"
+        star="assets/star.png"
+        score="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Hiking Safety with Javier Ross"
+        price={136}
+      />
+      <Cards
+        img="/assets/hiking.png"
+        star="assets/star.png"
+        score="5.0"
+        reviewNum="6"
+        country="USA"
+        desc="Hiking Safety with Javier Ross"
+        price={136}
+      />
     </div>
   );
 }

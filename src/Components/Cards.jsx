@@ -2,17 +2,15 @@ function Cards(props) {
   return (
     <>
       <div className="card">
-        <img src="/assets/hiking.png" className="card--image" />
+        <img src={props.img} className="card--image" />
         <div className="card--stats">
-          <img src="assets/star.png" className="card--star" />
-          <span>5.0</span>
-          <span> (6)•</span>
-          <span>USA</span>
+          <img src={props.star} className="card--star" />
+          <span>{props.score}</span>
+          <span> {props.reviewNum}•</span>
+          <span>{props.country}</span>
         </div>
-        <p>Hiking Safety with Javier Ross</p>
-        <p>
-          <b>From $136</b>/ person
-        </p>
+        <p>{props.title}</p>
+        <p>${props.price}/person</p>
       </div>
     </>
   );
